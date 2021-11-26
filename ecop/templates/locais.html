@@ -1,0 +1,60 @@
+{% load static%}
+<!Doctype html>
+
+<html>
+    <head>
+        <title>Ecoponto Sertãozinho</title>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" type="text/css" href="{% static 'css/estilo.css' %}">
+
+    </head>
+
+<body>
+
+    <div id="principal">
+        <img src="{% static 'images/ecop.png'%}"/>
+
+                <div id="menu">
+
+
+                    <a href="/"> HOME </a>
+
+                    <a href="/locais"> ENDEREÇOS </a>
+
+                    <a href="/localizacao"> LOCALIZAÇÃO </a>
+
+                    <a href="/saibamais"> SAIBA MAIS </a>
+
+
+                </div>
+
+
+                <div id="conteudo">
+                    <h1>Confira onde estão localizados os Ecopontos: </h1><br><br>
+
+                        <table width="100%">
+                            <thead>
+                                <tr>
+                                    <th>Nome</th>
+                                    <th>Rua</th>
+                                    <th>Nº</th>
+                                    <th>Bairro</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            {% for endereco in enderecos%}
+                                <tr>
+                                    <td>{{ endereco.nome }}</td>
+                                    <td>{{ endereco.rua }}</td>
+                                    <td>{{ endereco.n }}</td>
+                                    <td>{{ endereco.bairro }}</td>
+                                </tr>
+                            {% endfor%}
+                            </tbody>
+                        </table>
+                </div>
+
+    </div>
+</body>
+</html>

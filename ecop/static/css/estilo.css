@@ -1,0 +1,130 @@
+body{
+    background-color:beige;
+    font: 16px Arial, Helvetica, sans-serif;
+
+
+}
+
+
+#principal{
+    background-color: white;
+    margin-bottom: 0%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#menu{
+    background-color: #82A729;
+    padding: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+#conteudomapa{
+    background-color: beige;
+    padding: 50px 400px 50px 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+#conteudo{
+    background-color: beige;
+    padding: 50px 150px 50px 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+
+#logo{
+    padding-left: 40px;
+}
+
+#botao{
+
+    padding: 50px 150px 50px 150px;
+    margin-left: 33%;
+
+
+
+}
+
+a{
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px;
+
+}
+
+a:hover{
+    color: #2B2B2B;
+}
+
+
+h1{
+    color: #2B2B2B;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+h2{
+    color: #2B2B2B;
+    font-size: 1em;
+    text-align: center;
+}
+
+img{
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+p{
+    font-size: 1em;
+    color: #2B2B2B;
+}
+
+
+table{
+    width: 100%;
+    text-color: #2B2B2B;
+
+}
+
+th, td{
+    padding: 10px;
+    align: center;
+    color: #2B2B2B;
+
+}
+
+th{
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+tr:hover {
+    background-color: #D3D3D3;
+    padding: 50%;
+
+}
+
+
+a.button {
+
+    text-decoration: none;
+    color: initial;
+    background-color: #82A729;
+    color: beige;
+    border-radius: 50px;
+    padding: 10px 5px 10px 5px;
+    font-weight: bold;
+}
+
+a.button:hover{
+    background-color: #2B2B2B;
+}
+
